@@ -3,7 +3,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import { logger } from "./libs/logger";
-import { logHttpRequest } from "./middlewares/logger.middleware";
+import { logHttpRequest } from "./middlerwares/logger.middleware";
 import { env } from "./libs/env";
 
 const app = express();
